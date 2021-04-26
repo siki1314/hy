@@ -1,0 +1,70 @@
+body{
+  margin: 0;
+}
+#name{
+  user-select: none;
+  display: block;/*转换为块元素*/
+  font-family: 楷体;
+  position: absolute;/*相对平移*/
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  font-size: 300%;/*字体大小*/
+  color: white;
+}
+
+.a{
+  float: left;
+  position:absolute ;
+  top: 100px;
+  width: 550px;
+  height: 400px;
+  left: 130px;
+}
+.b{
+  float: left;
+  position:absolute ;
+  top: 100px;
+  width: 240px;
+  height:400px;
+  left: 730px;
+}
+.c{
+  float: left;
+  position:absolute ;
+  top: 50px;
+  width: 300px;
+  height:500px;
+  left: 1130px;
+}
+#qq{
+  float: left;
+  position:absolute ;
+  top: 500px;
+}
+#end{
+  user-select: none;
+  display: block;
+  position: absolute;
+  text-align: center ;
+  width: 100%;
+  top: 90%;
+  font-size: 200%;
+  color: white;
+}
+#photo{
+ 
+  position: absolute;
+  width: 1000px;
+  height: 500px;
+  left: 250px;
+  top: 100px;
+
+
+}
+
+
+
+
+
+
