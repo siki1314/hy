@@ -1,0 +1,36 @@
+
+.lb_gl{
+	position: absolute;
+	top: 900px;
+	width: 100%;
+	height:725px ;
+}
+.container{
+	width: 1024px;
+	margin:0 auto;
+	position: relative;
+}
+.pictureSlider{
+	position: relative;
+	height: 518px;
+}
+.poster-item{/*框  （限制宽度和高度）*/
+	width:400px;
+	height: 600px;
+	transition: all	 0.5s;cursor: default;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	border:10px outset white;
+	-webkit-box-shadow: 5px 5px 100px #ffff00;
+}
+#top{ /*标题*/
+	user-select: none;/*无法选中*/
+	position: relative;
+	text-align: center;
+	top:-100px ;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 100px;
+}
+
