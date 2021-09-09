@@ -1,0 +1,330 @@
+
+.container {
+  position: relative;
+  width: 35vw;
+  height: 45vw;
+  left: -50px;
+  right: 0;
+  top: 50px;
+  bottom: 0;
+  margin: auto;
+}
+
+.common {
+  height: 5vw;/*长*/
+  max-height: 100%;
+  overflow: auto;
+  width: 2vw;/*宽*/
+  margin: auto;
+  max-width: 100%;
+  position: absolute;
+  left: -50px;
+  top: 50px;
+  border-radius: 0 10vw 0 10vw;/*圆角边*/
+  box-shadow: inset 0 0 0 .1vw #ff05d9, 0 0 1.5vw 0 #03fc06;
+}
+
+.one {
+  transform: rotate(45deg);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 7.5vw;
+}
+
+.two {
+  transform: rotate(90deg);
+  left: 5.5vw;
+  right: 0;
+  top: 0;
+  bottom: 5.5vw;
+}
+
+.three {
+  transform: rotate(135deg);
+  left: 7.5vw;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.four {
+  transform: rotate(180deg);
+  left: 5.5vw;
+  right: 0;
+  top: 5.5vw;
+  bottom: 0;
+}
+
+.five {
+  transform: rotate(225deg);
+  left: 0;
+  right: 0;
+  top: 7.5vw;
+  bottom: 0;
+}
+
+.six {
+  transform: rotate(270deg);
+  left: 0;
+  right: 5.5vw;
+  top: 5.5vw;
+  bottom: 0;
+}
+
+.seven {
+  transform: rotate(315deg);
+  left: 0;
+  right: 7.5vw;
+  top: 0;
+  bottom: 0;
+}
+
+.eight {
+  transform: rotate(360deg);
+  left: 0;
+  right: 5.5vw;
+  top: 0;
+  bottom: 5.5vw;
+}
+.one {
+  animation: one 1s ease infinite;
+  -moz-animation: one 1s ease infinite;
+  /* Firefox */
+  -webkit-animation: one 1s ease infinite;
+  /* Safari and Chrome */
+  -o-animation: one 1s ease infinite;
+  /* Opera */
+}
+
+@keyframes one {
+  0%,
+  100% {}
+  50% {
+    box-shadow: inset 0 0 0 .1vw #17E1E6, 0 0 1.5vw 0 #17E1E6;
+  }
+}
+
+.two {
+  animation: two 1s .125s ease infinite;
+  -moz-animation: two 1s .125s ease infinite;
+  /* Firefox */
+  -webkit-animation: two 1s .125s ease infinite;
+  /* Safari and Chrome */
+  -o-animation: two 1s .125s ease infinite;
+  /* Opera */
+}
+
+@keyframes two {
+  0%,
+  100% {}
+  50% {
+    box-shadow: inset 0 0 0 .1vw #17E1E6, 0 0 1.5vw 0 #17E1E6;
+  }
+}
+
+.three {
+  animation: three 1s .25s ease infinite;
+  -moz-animation: three 1s .25s ease infinite;
+  /* Firefox */
+  -webkit-animation: three 1s .25s ease infinite;
+  /* Safari and Chrome */
+  -o-animation: three 1s .25s ease infinite;
+  /* Opera */
+}
+
+@keyframes three {
+  0%,
+  100% {}
+  50% {
+    box-shadow: inset 0 0 0 .1vw #17E1E6, 0 0 1.5vw 0 #17E1E6;
+  }
+}
+
+.four {
+  animation: four 1s .375s ease infinite;
+  -moz-animation: four 1s .375s ease infinite;
+  /* Firefox */
+  -webkit-animation: four 1s .375s ease infinite;
+  /* Safari and Chrome */
+  -o-animation: four 1s .375s ease infinite;
+  /* Opera */
+}
+
+@keyframes four {
+  0%,
+  100% {}
+  50% {
+
+    box-shadow: inset 0 0 0 .1vw #17E1E6, 0 0 1.5vw 0 #17E1E6;
+  }
+}
+
+.five {
+  animation: five 1s .5s ease infinite;
+  -moz-animation: five 1s .5s ease infinite;
+  /* Firefox */
+  -webkit-animation: five 1s .5s ease infinite;
+  /* Safari and Chrome */
+  -o-animation: five 1s .5s ease infinite;
+  /* Opera */
+}
+
+@keyframes five {
+  0%,
+  100% {}
+  50% {
+
+    box-shadow: inset 0 0 0 .1vw #17E1E6, 0 0 1.5vw 0 #17E1E6;
+  }
+}
+
+.six {
+  animation: six 1s .625s ease infinite;
+  -moz-animation: six 1s .625s ease infinite;
+  /* Firefox */
+  -webkit-animation: six 1s .625s ease infinite;
+  /* Safari and Chrome */
+  -o-animation: six 1s .625s ease infinite;
+  /* Opera */
+}
+
+@keyframes six {
+  0%,
+  100% {}
+  50% {
+
+    box-shadow: inset 0 0 0 .1vw #17E1E6, 0 0 1.5vw 0 #17E1E6;
+  }
+}
+
+.seven {
+  animation: seven 1s .750s ease infinite;
+  -moz-animation: seven 1s .750s ease infinite;
+  /* Firefox */
+  -webkit-animation: seven 1s .750s ease infinite;
+  /* Safari and Chrome */
+  -o-animation: seven 1s .750s ease infinite;
+  /* Opera */
+}
+
+@keyframes seven {
+  0%,
+  100% {}
+  50% {
+
+    box-shadow: inset 0 0 0 .1vw #17E1E6, 0 0 1.5vw 0 #17E1E6;
+  }
+}
+
+.eight {
+  animation: eight 1s .875s ease infinite;
+  -moz-animation: eight 1s .875s ease infinite;
+  /* Firefox */
+  -webkit-animation: eight 1s .875s ease infinite;
+  /* Safari and Chrome */
+  -o-animation: eight 1s .875s ease infinite;
+  /* Opera */
+}
+
+@keyframes eight {
+  0%,
+  100% {}
+  50% {
+    box-shadow: inset 0 0 0 .1vw #17E1E6, 0 0 1.5vw 0 #17E1E6;
+  }
+}
+
+.container {
+  animation: container 5s linear infinite;
+  -moz-animation: container 5s linear infinite;
+  /* Firefox */
+  -webkit-animation: container 5s linear infinite;
+  /* Safari and Chrome */
+  -o-animation: container 5s linear infinite;
+  /* Opera */
+}
+
+@keyframes container {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.progress {
+  animation: progress 15s ease;
+  -moz-animation: progress 15s ease;
+  /* Firefox */
+  -webkit-animation: progress 15s ease;
+  /* Safari and Chrome */
+  -o-animation: progress 15s ease;
+  /* Opera */
+}
+
+@keyframes progress {
+  0% {
+    left: -24vw;
+  }
+  10% {
+    left: -20vw;
+  }
+  30% {
+    left: -16vw;
+  }
+  50% {
+    left: -12vw;
+  }
+  65% {
+    left: -10vw;
+  }
+  80% {
+    left: -4vw;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+.fade-in {
+  animation: fade-in 2s ease;
+  -moz-animation: fade-in 2s ease;
+  /* Firefox */
+  -webkit-animation: fade-in 2s ease;
+  /* Safari and Chrome */
+  -o-animation: fade-in 2s ease;
+  /* Opera */
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.out {
+  position: absolute;
+  top: -250px;
+  left: 350px;
+  animation: out 2s 15s ease;
+  -moz-animation: out 2s 5s ease;
+  /* Firefox */
+  -webkit-animation: out 2s 5s ease;
+  /* Safari and Chrome */
+  -o-animation: out 2s 3s ease;
+  /* Opera */
+}
+
+@keyframes out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

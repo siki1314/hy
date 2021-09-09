@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+    -khtml-user-select: none;
+}
+body{
+    margin: 0 auto;
+
+}
+#out{
+    width: 100%;
+    height: 0px;
+    top: 0px;
+}
+#bt{
+    width: 100%;
+    height: 70px;
+    left: 50%;
+    color: black;
+    text-align: center;
+    font-size:50px;
+ 
+}
+
+#a{
+    position:fixed;
+    top: 0;
+    left: -40px;
+
+}
+#b{
+    position: fixed;
+    top: 0;
+    left: 82%;
+
+}
+
+
+.nav_menu {
+    margin: 0 auto;
+    position: relative;
+    top: 180px;
+    left: 310px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    height: 400px;
+    padding: 10px;
+  
+
+}
+.menu_item {
+    position: relative;
+    flex: 1;
+    height: 100%;
+    line-height: 50px;
+    transform-style: preserve-3d;
+    transition: all 0.5s;
+}
+.menu_item:active {
+    cursor: pointer;
+    transform: rotateX(90deg);
+}
+.home, .web_home {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    perspective: 300px;
+}
+.home {
+    transform: translateZ(200px);
+}
+.web_home {
+    transform: translateY(200px) rotateX(-90deg);
+}
+#frist1{
+    background: url("../image/5.JPG");
+}
+#frist2{
+    background: url("../image/6.JPG");
+}
+#second1{
+    background: url("../image/13.JPG");
+}
+#second2{
+    background: url("../image/15.JPG");
+}
+#third1{
+    background:url("../image/11.JPG") ;
+}
+#third2{
+    background: url("../image/12.JPG");
+}
+#qq {
+    margin: 0;
+    position: fixed;
+    top:390px;
+}
+.t{
+    height: 900px;
+    margin:100px;
+    top: 250px;
+    left: 390px;
+    position: relative;
+ 
+}
+.poster-item { /*框  （限制宽度和高度）*/
+    width: 400px;
+    height: 600px;
+    transition: all 0.5s;
+    cursor: default;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    border: 10px outset pink;
+    -webkit-user-select: none;/*阻止框选，屏幕变蓝*/
+    user-select: none;
+}
+img{
+    -webkit-user-drag: none;/*图片无法被拖拽*/
+}
+.poster-item:active{
+    background: crimson;
+    box-shadow:-0px -50px 1000px #ffe500;
+}
+#bt1{ /*标题*/
+    user-select: none;/*无法选中*/
+    position: relative;
+    text-align: center;
+    margin: 100px;
+    color: #fff;
+    font-size: 50px;
+    padding-bottom: 50px;/*下边距*/
+}
+#sp{
+    margin: 100px;
+    position: relative;
+    height:1090px;
+    top: 400px;
+
+}
+#bt2{ /*标题*/
+    user-select: none;/*无法选中*/
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 50px;
+    padding-bottom: 50px;/*下边距*/
+}
+#sakura{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 1000px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+
